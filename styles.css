@@ -1,10 +1,6 @@
 *{
     font-family:sans-serif
 }
-.header,.first-body,.second-body,.third-body,.forth-body,.footer{
-    /*border:2px solid red;*/
-}
-
 
 .header, .first-body {
     background-color: #1F2937;
@@ -32,8 +28,7 @@
 .header ul {
     /*border:3px solid red;*/
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    min-width: 400px;
     gap: 0px;
     padding: 8px;
 }
@@ -41,6 +36,8 @@
 .header li {
     margin:8px;
     list-style-type: none;
+    text-size-adjust: none;
+    flex-shrink: none;
 }
 
 a{
@@ -174,13 +171,19 @@ button {
 /**************************************************************************************/
 
 .forth-body{
+    background-color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    padding:50px 20px;
+}
+
+.forth-body-1{
     display: flex;
     /*border: 5px solid red;*/
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
     color:#F9FAF8;
-    margin: 50px 100px 50px 200px;
     padding: 50px 20px 50px 20px;
     width: 900px;    
     height: 30px;
