@@ -72,6 +72,8 @@ button {
     width: 105px;
     height: 30px;
     margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
 }
 
 .image-position{
@@ -180,6 +182,7 @@ button {
 .forth-body-1{
     display: flex;
     /*border: 5px solid red;*/
+    border-radius: 8px;
     align-items: center;
     justify-content: center;
     background-color: #3882F6;
